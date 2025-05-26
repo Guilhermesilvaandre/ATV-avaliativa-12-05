@@ -1,0 +1,88 @@
+.menu
+{
+    list-style-type: none;
+    background-color:/* black; */ #18314F;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Alinhamento texto menu */
+.menu-item
+{
+    float: center;
+}
+
+/* Formatação link menu */
+.menu-item a 
+{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Efeito hover menu */
+.menu-item a:hover
+{
+    background-color: #387D7A;
+    color: #0c1b1a;
+}
+
+
+
+/* Bordas da tabela */
+table, th, td
+{
+    /* Espessura, Tipo, Cor */
+    border: 2px solid black;
+
+    /* Recolher Borda */
+    border-collapse: collapse;
+
+    /* Margem */
+    margin-left: 20px;
+}
+
+/* Cabeçalho tabela (th: table head) */
+th
+{
+    /* Altura do cabecalho */
+    height: 30px;
+
+    /* Alinhamento horizontal */
+    text-align: center;
+}
+
+/* Dados tabela (td: table data) */
+td
+{
+    /* ALtura das linhas */
+    height: 40px;
+
+    /* Alinhamento horizontal */
+    text-align: center;
+}
+
+/* Tabela listada (even - impar / odd - par) */
+tr:nth-child(even)
+{
+    background-color: #387D7A;
+}
+
+/* Tabela listada (even - impar / odd - par) */
+tr:nth-child(odd)
+{
+    background-color: #1bb4af;
+}
+
+/* Efeito Hover (Passar mouse) */
+tr:hover
+{
+    background-color: #0c1b1a;
+}
+
+footer{
+   color: aqua;
+}
