@@ -1,4 +1,77 @@
+
+
 <!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Orelhão.com</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1> Deficiência Auditiva </h1>
+
+    </header>
+
+    <main>
+        <section>
+            <h3>A deficiência auditiva, também conhecida como perda auditiva, é uma condição que afeta a capacidade de uma pessoa ouvir sons. Ela pode variar de leve a profunda e pode ocorrer em um ou ambos os ouvidos. Existem diferentes tipos de deficiência auditiva, incluindo:</h3>
+            <p><strong>Condutiva</strong>: Ocorre quando há um problema na transmissão do som através do ouvido externo ou médio. Isso pode ser causado por infecções, acúmulo de cera ou lesões.</p>
+            <p><strong>Neurossensorial</strong>: Resulta de danos nas células sensoriais do ouvido interno ou nos nervos responsáveis pela audição. Pode ser causada por envelhecimento, exposição prolongada a ruídos altos, infecções virais ou condições genéticas.</p>
+            <p><strong>Mista</strong>: Combina elementos da perda condutiva e neurossensorial.</p>
+            <p>A deficiência auditiva pode impactar a comunicação e a qualidade de vida da pessoa afetada. Felizmente, existem diversas formas de tratamento e tecnologias assistivas, como aparelhos auditivos, implantes cocleares e técnicas de reabilitação auditiva. Além disso, a língua de sinais e legendas em conteúdos audiovisuais ajudam na inclusão de pessoas com perda auditiva.</p>
+        </section>
+
+        <div class="menu-lateral" id="menu-lateral">
+            <div class="botao-fechar-menu" id="botao-fechar-menu-container">
+            </div>
+            <div class="menu-lateral-conteudo">
+                <ul class="menu-lateral-lista">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="Tipossurdos.php">Problemas de audição</a></li>
+                    <li><a href="Comoajudar.php">Como ajudar</a></li>
+                    <li><a href="Comofeito.php">Como o site foi feito</a></li>
+                    <li><button id="botao-opcoes">Opções</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="menu-opcoes" id="menu-opcoes">
+            <div class="menu-opcoes-conteudo">
+                <ul class="menu-opcoes-lista">
+                    <li><a href="index.php">Opção 1</a></li>
+                    <li><a href="Tipossurdos.php">Opção 2</a></li>
+                    <li><a href="Comoajudar.php">Opção 3</a></li>
+                    <li><a href="Comofeito.php">Opção 4</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="botao-menu">
+            <button id="botao-menu">Abrir Menu</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>                      COD NOSSO
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -46,7 +119,7 @@
     </footer>
 
 </body>
-</html>
+</html> -->
 
     <!-- Aumenta o tamanho da fonte da pag
     
